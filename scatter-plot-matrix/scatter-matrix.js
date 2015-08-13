@@ -64,7 +64,7 @@ ScatterMatrix.prototype.render = function () {
         original_numeric_variables.push(k);
       }
       else {
-        if (k !== 'sub-region') {
+        if (k !== 'id') {
           string_variables.push(k);
           self.__string_variable_values[k] = [];
         }
